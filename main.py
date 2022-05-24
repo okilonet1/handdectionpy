@@ -104,6 +104,7 @@ while 1:
                 finger.append(hull[i][0])
 
     finger = sorted(finger, key=lambda x: x[1])
+    # print(finger)
     fingers = finger[0:5]
 
     fingerDistance = []
